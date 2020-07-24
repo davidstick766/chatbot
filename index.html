@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Chat</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="fabs">
+        <div class="chat">
+            <div class="chat_header">
+                <div class="chat_option">
+                    <div class="header_img">
+                        <img src="/5f19fc38f23e5_500x473.png" />
+                    </div>
+                    <span id="chat_head">Leave us a Message</span> <br> <span class="agent">Agent</span> <span
+                        class="online">(Online)</span>
+                    <span id="chat_fullscreen_loader" class="chat_fullscreen_loader"><i
+                            class="fullscreen zmdi zmdi-window-maximize"></i></span>
+
+                </div>
+
+            </div>
+            <div class="chat_body chat_login">
+                <a id="chat_third_screen" class="fab"><i class="zmdi zmdi-arrow-right"></i></a>
+                <p>We make it simple and seamless for businesses and people to talk to each other. Ask us anything</p>
+            </div>
+            <div id="chat_form" class="chat_converse chat_form">
+                <div class="col-md-12 mb-md-0 mt-3">
+                    <form id="contact-form">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control" required>
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control" required>
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea" required></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                  <button type="button" class="btn btn-primary text-center "
+                      style="margin-left:auto;display:flex; margin-right:auto;">Send </button>
+
+                </div>
+
+            </div>
+            <div class="fab_field">
+                <a id="fab_camera" class="fab"><i class="zmdi zmdi-camera"></i></a>
+                <a id="fab_send" class="fab"><i class="zmdi zmdi-mail-send"></i></a>
+                <textarea id="chatSend" name="chat_message" placeholder="Send a message"
+                    class="chat_field chat_message"></textarea>
+            </div>
+        </div>
+        <a id="prime" class="fab"><i class="prime zmdi zmdi-comment-outline"></i></a>
+    </div>
+    <script src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
